@@ -8,13 +8,13 @@ import java.util.Scanner;
 public class Test {
     public static void main(String[] args) {
 
-        //new two student
+
         DoctorManImpl docStudent1 = new DoctorManImpl("拜登","男",28);
         DoctorManImpl docStudent2 = new DoctorManImpl("川建国","女",25);
 
 
         try {
-            //Scanner input
+     
             Scanner sc = new Scanner(System.in);
             System.out.println("请输入拜登博士研究生的工资");
             docStudent1.payWage(sc.nextDouble());
@@ -25,8 +25,9 @@ public class Test {
             System.out.println("请输入川建国博士研究生的学费");
             docStudent2.payTuition(sc.nextDouble());
         } catch (NumberFormatException a) {
-            //Exception use
             System.out.println("请确认输入的是数字");
+        } catch (Exception e){
+            System.out.println("您的输入不符合要求");
         }
 
         double dst1 = docStudent1.checkTuition();
