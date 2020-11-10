@@ -127,6 +127,21 @@ public interface StudentMan {
  ```
 
 
+6.异常的处理
+ ```Java
+       try {
+            System.out.println("请输入川建国博士研究生的工资");
+            docStudent2.payWage(sc.nextDouble());
+            System.out.println("请输入川建国博士研究生的学费");
+            docStudent2.payTuition(sc.nextDouble());
+        } catch (NumberFormatException a) {
+            System.out.println("请确认输入的是数字");
+        } catch (Exception e){
+            System.out.println("您的输入不符合要求");
+        }
+ ```
+
+
 ## 五、系统运行截图
 
   #### 最终结果展示
@@ -137,8 +152,9 @@ public interface StudentMan {
 ## 七、感想与体会
    1.本次按照软件开发流程进行，编写较为容易。
    2.巩固了java知识点，如：封装、继承、多态等。
-   3.新学习了接口的使用。
-   4.新学习的BigDecimal总结如下：
+   3.学习了接口的使用。
+   4.学习到了异常的处理。
+   5.新学习的BigDecimal总结如下：
 
     > Java在java.math包中提供的API类BigDecimal，用来对超过16位有效位的数进行精确的运算。双精度浮点型变量double可以处理16位有效数，
     > 但在处理经济问题时，可能需要对更大或者更小的数进行运算和处理。一般情况下，对于那些不需要准确计算精度的数字，我们可以直接用使
