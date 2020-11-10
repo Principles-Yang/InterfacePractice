@@ -28,28 +28,24 @@
 
 
 ## 三、实验设计
- #### 如图：
- #### 数据库（建表语句见 四、7）：
-
-
  ##### 流程图
- ![](hes-Yang/JavaTest2-Simulation-Program-of-PC/blob/main/BasicUml.png) <br><br>
+ ![](https://github.com/Principles-Yang/InterfacePractice/blob/master/pic/diagram2.png) <br><br>
 
 
  ##### 包图
  ![](hes-Yang/JavaTest2-Simulation-Program-of-PC/blob/main/BasicUml.png) <br><br>
 
  ##### 类图（含继承、多态、对象的属性和方法等）
-  ![](https://gub.com/Principles-Yang/JavaTest2-Simulation-Program-of-PC/blob/main/Pc-cpu-harddisk.png) <br><br>
+  ![](https://github.com/Principles-Yang/InterfacePractice/blob/master/pic/diagram1.png) <br><br>
 
   ##### 目录结构
-  ![](https://gub.com/Principles-Yang/JavaTest2-Simulation-Program-of-PC/blob/main/Pc-cpu-harddisk.png) <br><br>
+  ![](https://github.com/Principles-Yang/InterfacePractice/blob/master/pic/meum.png) <br><br>
 
   ##### 个税的各阶段起征点
-  ![](https://gub.com/Principles-Yang/JavaTest2-Simulation-Program-of-PC/blob/main/Pc-cpu-harddisk.png) <br><br>
+  ![](https://github.com/Principles-Yang/InterfacePractice/blob/master/pic/tax.png) <br><br>
 
   ##### 个税计算参考
-  ![](https://gub.com/Principles-Yang/JavaTest2-Simulation-Program-of-PC/blob/main/Pc-cpu-harddisk.png) <br><br>
+  ![](https://github.com/Principles-Yang/InterfacePractice/blob/master/pic/CalcTax.png) <br><br>
 
 
 
@@ -138,7 +134,7 @@ public interface StudentMan {
 ## 五、系统运行截图
 
   #### 最终结果展示
-  ![](https://github.com/Principles-Yang/JavaTest2-Simulation-Program-of-PC/blob/main/result.png) <br><br>
+  ![](https://github.com/Principles-Yang/InterfacePractice/blob/master/pic/result.png) <br><br>
 
   
   
@@ -148,5 +144,8 @@ public interface StudentMan {
    3.新学习了接口的使用。
    4.新学习的BigDecimal总结如下：
 
-    >​	Java在java.math包中提供的API类BigDecimal，用来对超过16位有效位的数进行精确的运算。双精度浮点型变量double可以处理16位有效数，但在处理经济问题时，可能需要对更大或者更小的数进行运算和处理。一般情况下，对于那些不需要准确计算精度的数字，我们可以直接用使Float和Double处理，但是Double.valueOf(String) 和Float.valueOf(String)会丢失精度。所以开发中，如果我们需要精确计算的结果，则必须使用BigDecimal类来操作。
+    > Java在java.math包中提供的API类BigDecimal，用来对超过16位有效位的数进行精确的运算。双精度浮点型变量double可以处理16位有效数，
+    > 但在处理经济问题时，可能需要对更大或者更小的数进行运算和处理。一般情况下，对于那些不需要准确计算精度的数字，我们可以直接用使
+    > Float和Double处理，但是Double.valueOf(String) 和Float.valueOf(String)会丢失精度。所以开发中，如果我们需要精确计算的结果，
+    > 则必须使用BigDecimal类来操作。
 
