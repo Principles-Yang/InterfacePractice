@@ -31,10 +31,6 @@
  ##### 流程图
  ![](https://github.com/Principles-Yang/InterfacePractice/blob/master/pic/diagram2.png) <br><br>
 
-
- ##### 包图
- ![](hes-Yang/JavaTest2-Simulation-Program-of-PC/blob/main/BasicUml.png) <br><br>
-
  ##### 类图（含继承、多态、对象的属性和方法等）
   ![](https://github.com/Principles-Yang/InterfacePractice/blob/master/pic/diagram1.png) <br><br>
 
@@ -46,9 +42,6 @@
 
   ##### 个税计算参考
   ![](https://github.com/Principles-Yang/InterfacePractice/blob/master/pic/CalcTax.png) <br><br>
-
-
-
 
 
 ## 四、关键代码
